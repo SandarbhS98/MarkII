@@ -1,0 +1,8 @@
+server:
+  port: 9296
+  
+spring:  application:    name: CONFIG_SERVER
+  cloud:    config:      server:        git:          uri: https://github.com/SandarbhS98/Projects
+          clone-on-start: true
+          default-label: main
+              
